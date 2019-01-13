@@ -1,0 +1,10 @@
+<html>
+<body>
+	<h4>File Upload Vulnerability - Content Type Check for GIF</h4>
+	<form action="lfi.php" method="post" enctype="multipart/form-data">
+		Filename: <input type="text" name="page"><br>
+		<input type="submit" name="submit" value="Upload">
+	</form>
+
+</body>
+</html> 
